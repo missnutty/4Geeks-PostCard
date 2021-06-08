@@ -1,0 +1,46 @@
+postcardstyles.CSS3
+
+body {
+	background: white;
+}
+
+.postcard {
+	font-family: monospace;
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+h1 {
+	width: 400px;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	font-family: serif;
+	padding: 0 4px 0 4px;
+}
+
+.body-right {
+	padding: 15px 4px 0 4px;
+}
+
+input {
+	font-family: cursive;
+	border-bottom: 2px solid gray;
+	border: none;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+}
