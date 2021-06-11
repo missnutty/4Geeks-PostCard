@@ -1,15 +1,15 @@
-postcardstyles.CSS3
-
 body {
-	background: white;
+	padding-top: 150px;
+	background: black;
 }
 
 .postcard {
-	font-family: monospace;
-	background: white;
+	font-family: 'Architects Daughter', cursive;
+	background: white; 
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 15px 15px 15px 15px;
 }
 
 .postcard-header {
@@ -19,6 +19,7 @@ body {
 h1 {
 	width: 400px;
 	margin: 0;
+	text-align: left;
 }
 
 .postcard-body {
@@ -26,16 +27,16 @@ h1 {
 }
 
 .body-left {
-	font-family: serif;
+	font-family: 'Architects Daughter', cursive;
 	padding: 0 4px 0 4px;
 }
 
 .body-right {
-	padding: 15px 4px 0 4px;
+	padding: 15px 20px 0 4px;
 }
 
 input {
-	font-family: cursive;
+	font-family: 'Architects Daughter', cursive;
 	border-bottom: 2px solid gray;
 	border: none;
 }
@@ -43,4 +44,5 @@ input {
 .postcard-footer {
 	text-align: center;
 	padding: 5px 10px 5px 10px;
+	font-family: 'Architects Daughter', cursive;
 }
